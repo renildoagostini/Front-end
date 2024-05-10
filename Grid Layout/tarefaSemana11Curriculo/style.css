@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    
+}
+
+body, html{
+    width: 100%;
+    height: 100%;   
+}
+.container{
+    color: #fff;
+    font-size: 20px;
+    display: grid;
+    grid-template-columns: 30vw 38.5vw 30vw;
+    grid-template-rows: 30vh 35vh 30vh;
+    gap: 10px;    
+    grid-template-areas: "header header header" 
+                          "contatos redessociais objetivosprofissionais"
+                          "formacaoacademica experienciaprofissional habilidades";                 
+                          
+}
+
+.header{    
+    background: #faebd7;
+    grid-area: header;   
+    align-content: center;   
+    text-align: center;   
+}
+
+
+
+.contatos{
+    background-color: #99886e;
+    grid-area: contatos;
+}
+
+.redessociais{
+    background-color: #5c672d;
+    grid-area: redessociais;
+}
+
+.objetivosprofissionais{
+    background-color: #d2691e;
+    grid-area: objetivosprofissionais;
+}
+
+.formacaoacademica{
+    background-color: #deb887;
+    grid-area: formacaoacademica;
+}
+
+.experienciaprofissional{
+    grid-area: experienciaprofissional;
+    background-color: #9314dc;
+}
+
+.habilidades{
+    background-color: #ffff00;
+    grid-area: habilidades;
+}
+
+
+
+
+
