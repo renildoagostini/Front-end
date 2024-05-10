@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body, html{
+    width: 100%;
+    height: 100%;
+    
+}
+
+.container{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 5px;
+
+
+
+    justify-content: center; /*Movimenta todos os containe da esquerda para direita -horizontal (center, start, end, space-beetween, space-around space-evenly*/
+
+    align-content: center;/* Vertical - Movimenta todos os container do topo para baixo*/
+
+    align-items: center;
+    justify-items: center;
+}
+
+.it{
+    background-color: #ffdd40;  
+    
+    height: 50%;
+    width: 50%;
+}
+
+.centralizado{
+    justify-self: center; /*Movimenta o container na horizontal*/
+    align-self: center; /*Movimenta o container na vertical*/
+    text-align: center;
+}
