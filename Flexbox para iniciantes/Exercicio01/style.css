@@ -1,0 +1,19 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+.container{
+   background-color: #dcdcdc;
+   height: 100vh;
+}
+
+.item{
+   border: 1px solid;
+   padding: 15px;
+   font-size: 40px;
+}
+
+.i1{
+   background-color: ;
+}
