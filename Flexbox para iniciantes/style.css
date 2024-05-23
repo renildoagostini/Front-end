@@ -1,0 +1,40 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+.container{
+   background-color: #dcdcdc;
+   height: 100vh;
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: center;
+}
+.item{
+   border: 1px solid;
+   padding: 15px;
+   font-size: 40px;
+   height: 40px;
+   
+}
+
+.i1{
+   background-color: tomato;
+   order: 1;
+   flex-grow: 1;
+}
+
+.i2{
+   background-color: blue;
+   order: 2;
+   flex-grow: 1; /*bom para dividir*/
+}
+
+.i3{
+   background-color: yellow;
+   order: 3;
+   flex-grow: 1;
+}

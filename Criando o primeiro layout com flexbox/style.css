@@ -1,0 +1,44 @@
+*{
+   margin: 0; 
+   padding: 0;
+}
+
+.container{
+   background-color: #dcdcdc;
+   height: 100vh;
+
+   display: flex;
+   flex-direction: row;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   align-items: start;
+}
+.item{
+   border: 1px solid;
+   padding: 15px;
+   font-size: 40px;
+   height: 40px;
+   
+}
+
+.i1{
+   background-color: tomato;
+   order: 1;
+   flex-grow: 1;
+}
+
+.i3{
+   background-color: yellow;
+   order: 3;
+   flex-grow: 1;
+   font-size: 20px;
+
+   display: flex;
+   justify-content: space-around;
+   align-items: center;
+}
+
+.i3 a{
+   background-color: tomato;
+   padding: 5px;
+}
