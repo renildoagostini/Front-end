@@ -3,7 +3,7 @@
     padding: 0;
 }
 
-.cabecalho{
+header{
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -21,7 +21,7 @@
     align-items: center;
  }
  
- .header{
+ .cabecalho{
     height: 15vh;
     color: white;
     background-color: #3dafe6;    
@@ -31,7 +31,7 @@
     align-items: center;
  }
 
- .principal{
+ main{
     background-color:#4a7025;
     color: white;
     height: 70vh;
@@ -43,7 +43,7 @@
     align-items: center;
  }
 
- .rodape{
+ footer{
     height: 15vh;
     display: flex;
     flex-direction: row;
@@ -51,7 +51,7 @@
     font-size: 40px;    
 }
 
-.footer{
+.rodape{
     height: 15vh;
     background-color: #d80073;
     color: white;   
