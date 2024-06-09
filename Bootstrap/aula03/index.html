@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <!-- Meta tags Obrigatórias -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+  <title>Tarefa - Bootstrap</title>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-succes bg-success">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><img src="/aula03/img/RenildoRibeiroAgostini.png" width="100" height="100"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Principal</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Filme</a>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link disabled" aria-disabled="true">Série</a>
+            </li>
+          </ul>
+          <form class="d-flex" role="search">
+            <input class="form-control me-2" type="search" placeholder="Filme ou Série" aria-label="Search">
+            <button class="btn btn-outline-danger pe-5" type="submit">Pesquisar</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <main>
+
+    <div class="container">
+      <h1 class="mt-5 pb-5">Diversão para toda a familia</h1>
+
+      <p class="lead">
+        Escolha o filme ou série nos botões abaixo: <a class="btn btn-dark me-2" data-bs-toggle="offcanvas"
+          href="#offcanvasFilme" role="button" aria-controls="offcanvasFilme">
+          Filme
+
+          <a class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasSerie"
+            aria-controls="offcanvasSerie">
+            Série
+      </a>
+        </a>
+      </p>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasFilme" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Escolha o Genero do Filme</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="">
+          Clique no menu abaixo para escolher o genero do filme
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+           Opções
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Ação</a></li>
+            <li><a class="dropdown-item" href="#">Comédia</a></li>
+            <li><a class="dropdown-item" href="#">Drama</a></li>
+            <li><a class="dropdown-item" href="#">Ficção científica</a></li>
+            <li><a class="dropdown-item" href="#">Infantil</a></li>
+            <li><a class="dropdown-item" href="#">Policial</a></li>
+            <li><a class="dropdown-item" href="#">Terror</a></li>
+            <li><a class="dropdown-item" href="#">Suspense</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasSerie" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <h5 class="offcanvas-title" id="offcanvasExampleLabel">Escolha o Genero da Série</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <div class="">
+          Clique no menu abaixo para escolher o genero da série
+        </div>
+        <div class="dropdown mt-3">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown">
+            Opções
+          </button>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Epoca</a></li>
+            <li><a class="dropdown-item" href="#">Infantil</a></li>            
+            <li><a class="dropdown-item" href="#">Policial</a></li>
+            <li><a class="dropdown-item" href="#">Suspense</a></li>
+            <li><a class="dropdown-item" href="#">Toda Familia</a></li>
+            
+          </ul>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <nav class="navbar fixed-bottom navbar-warning bg-warning justify-content-center">
+      <ul class="nav ">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Página Elaborada pelo Aluno Renildo Ribeiro Agostini para o Curso de Front-End </a>
+        </li>       
+      </ul>
+      </div>
+    </nav>
+  </footer>
+</body>
+
+</html>
